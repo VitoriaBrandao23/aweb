@@ -84,21 +84,21 @@ nav a:hover{
     clear: both;
 }
 
-.about_me div{
+#about_me div{
     background-color: #264d2f;
     border-radius: 30px;
     margin: 0 5%;
     padding: 35px;
 }
 
-.about_me div h2{
+#about_me div h2{
     text-align: center;
     padding-bottom: 3%;
     font-weight: lighter;
     font-size: xx-large;
 }
 
-.about_me div p{
+#about_me div p{
     text-align: center;
 }
 
