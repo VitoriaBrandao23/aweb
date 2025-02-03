@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    margin-top: 45px;
+    background-color: rgb(52, 99, 96);
+}
+
+#line{
+    border-left: 2px solid rgb(5, 240, 130);
+    margin-left: 130px;
+    height: 600px;
+}
+
+.left{
+    margin-left: 45px;
+}
+
+#img1{
+    width: 28%;
+}
+
+.left p{
+    margin-top: 35px;
+    margin-bottom: 50px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 23px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+#img2{
+    height: 50%;
+}
+
+.right{
+    background-color: rgba(28, 56, 53, 0.493);
+    padding: 95px;
+    margin-left: 200px;
+    border-radius: 20px;
+}
+
+.right h2{
+    font-size: 30px;
+}
+
+.right h3{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.right h2, h3{
+    text-align: center;
+    color: #fff;
+}
+
+form{
+    margin: 0px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label{
+    color: #fff;
+    font-size: 13px;
+    text-indent: -75px;
+}
+
+form input{
+    background-color: #ddd;
+    padding: 15px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 170%;
+    align-self: center;
+}
+
+form input:focus-visible{
+    outline: 3px solid rgb(5, 240, 130);
+}
+
+#eye{
+    width: 15px;
+    margin-left: 125%;
+    margin-top: -33%;
+    padding: 18px 9px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+form  button{
+    background-color: #0fe28e;
+    padding: 10px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 15px;
+    width: 188%;
+    align-self: center;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+form button:hover{
+    background-color: #00E689;
+}
+
+a{
+    display: flex;
+    margin-top: 12px;
+    margin-left: 135px;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#line2{
+    border: 1px solid #fff;
+    margin-top: 25px;
+}
+
+#button-gov{
+    background-color: #fff;
+    color: rgb(49, 49, 209);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 110px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#gov{
+    width: 50px;
+}

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+    color: #fff;
+}
+
+body{
+    background-color: #1E3E0C;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+nav{
+    width: 100%;
+    padding: 5vh;
+    background-color: #12210C;
+    list-style: none;
+    position: fixed;
+    top: 0;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{ 
+    display: inline;
+    margin: 40px;
+}
+
+#logo{
+    font-size: xx-large;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #BA920E;
+}
+
+#me{
+    width: 20%;
+    float: left;
+    /*margin-right: 5%;*/
+    margin-left: 60vh;
+    border-radius: 50px;
+}
+
+.texto{
+    text-align: center;
+    overflow: hidden;
+    padding-top: 10%;
+    padding-right: 30vh;
+}
+
+.texto h3{
+    padding-bottom: 8%;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.texto h1{
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+.hero{
+    padding-top: 12%;
+    padding-bottom: 15%;
+    margin: auto;
+}
+
+.main{
+    position: relative;
+    top: 100vh; 
+    visibility: hidden; 
+}
+
+#clear{
+    clear: both;
+}
+
+.about_me div{
+    background-color: #264d2f;
+    border-radius: 30px;
+    margin: 0 5%;
+    padding: 35px;
+}
+
+.about_me div h2{
+    text-align: center;
+    padding-bottom: 3%;
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+.about_me div p{
+    text-align: center;
+}
+
+#education{
+    padding-left: 40%;
+}
+
+footer{
+    background-color: #12210C;
+}
