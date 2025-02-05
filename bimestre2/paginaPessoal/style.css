@@ -45,7 +45,6 @@ nav a:hover{
 #me{
     width: 20%;
     float: left;
-    /*margin-right: 5%;*/
     margin-left: 60vh;
     border-radius: 50px;
 }
@@ -156,12 +155,12 @@ nav a:hover{
 }
 
 .card2{
-    height: 66vh;
+    height: 60vh;
 }
 
 .card5,
 .card6{
-    height: 70vh;
+    height: 65vh;
 }
 
 #education{
@@ -203,6 +202,11 @@ nav a:hover{
 
 #education table th{
     height: 10vh;
+    background-color: #12210C;
+}
+
+#education table td{
+    background-color: #264d2f;
 }
 
 #causos{
@@ -255,14 +259,14 @@ nav a:hover{
 
 #eu{
     float: right;
-    width: 11%;
-    margin-top: 8.3vh;
+    width: 9%;
+    margin-top: 7vh;
     margin-right: 20vw;  
     border-radius: 30px;
 }
 
 footer{
-    background-color: #12210C;
+    background-color: #2b4b1f;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
