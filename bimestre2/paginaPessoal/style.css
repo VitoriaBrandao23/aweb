@@ -71,6 +71,7 @@ nav a:hover{
     padding-bottom: 15%;
     margin: auto;
     height: 50vh;
+    background-color: #213f15;
 }
 
 .main{
@@ -80,6 +81,10 @@ nav a:hover{
 
 #clear{
     clear: both;
+}
+
+#about_me{
+    margin-top: 10vh;
 }
 
 #about_me div{
@@ -155,12 +160,12 @@ nav a:hover{
 }
 
 .card2{
-    height: 60vh;
+    height: 59vh;
 }
 
 .card5,
 .card6{
-    height: 65vh;
+    height: 63vh;
 }
 
 #education{
@@ -176,7 +181,7 @@ nav a:hover{
     font-weight: lighter;
     text-align: center;
     font-size: xx-large;
-    margin-bottom: 7vh;
+    margin-bottom: 9vh;
 }
 
 #frase{
@@ -190,7 +195,7 @@ nav a:hover{
     border-radius: 50%; 
     max-width: 80%;
     margin-top: 5vh;
-    margin-left: 7vw;
+    margin-left: 9.5vw;
     margin-right: 5vw;
 }
 
@@ -202,11 +207,11 @@ nav a:hover{
 
 #education table th{
     height: 10vh;
-    background-color: #12210C;
+    background-color: #3b5e2d;
 }
 
 #education table td{
-    background-color: #264d2f;
+    background-color: #29471c;
 }
 
 #causos{
@@ -230,25 +235,27 @@ nav a:hover{
 }
 
 #causos img{
-    width: 35%;
-    padding-left: 55vh;
+    width: 50%;
+    padding-top: 4vh;
+    padding-left: 40vh;
 }
 
 #hability{
     margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 #hability h2{
     font-weight: lighter;
     font-size: xx-large;
     text-align: center;
-    margin-bottom: 7vh;
+    margin-bottom: 1vh;
 }
 
 #hability ol{
     background-color: #264d2f;
     border-radius: 30px;
-    margin: 6% 9%;
+    margin: 3% 9%;
     padding: 35px;
     padding-left: 15vw;
 }
@@ -266,7 +273,7 @@ nav a:hover{
 }
 
 footer{
-    background-color: #2b4b1f;
+    background-color: #12210C;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -274,15 +281,22 @@ footer{
 
 footer h3{
     font-weight: lighter;
-    font-size: large;
-    display: inline;
-    padding-right: 10%;
-    padding-left: 10%;
-    color: #BA920E;
+    font-size: 20px;
+    padding-bottom: 3vh;
+    color: #fff;
 }
 
 footer p{
+    font-size: 15px;
+    color: #fff;
     display: inline;
-    padding-right: 10%;
-    color: #BA920E;
+}
+
+footer #email{
+    margin-right: 30px;
+}
+
+footer #git{
+    margin-left: 30px;
+    margin-right: 30px;
 }
