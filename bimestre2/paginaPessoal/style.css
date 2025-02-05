@@ -26,7 +26,7 @@ nav ul{
 
 nav ul li{ 
     display: inline;
-    margin: 40px;
+    margin: 0 6% 0 2%;
 }
 
 #logo{
@@ -86,7 +86,7 @@ nav a:hover{
 #about_me div{
     background-color: #264d2f;
     border-radius: 30px;
-    margin: 0 5%;
+    margin: 0 9%;
     padding: 35px;
 }
 
@@ -98,58 +98,187 @@ nav a:hover{
 }
 
 #about_me div p{
-    text-align: center;
+    text-align: justify;
 }
 
 #curiosity{
-    margin-top: 5vh;
+    margin-top: 10vh;
+    text-align: center;
 }
 
 #curiosity h2{
     font-weight: lighter;
     font-size: xx-large;
     text-align: center;
+    margin-bottom: 7vh;
+}
+
+.cards{
+    text-align: center;
 }
 
 .card{
     background-color: #264d2f;
-    width: 10%;
-    height: 30%;
-    margin-left: 13vh;
+    width: 25%;
+    height: 40%;
+    line-height: 25px;
+    border-radius: 30px;
     display: inline-block;
-    padding: 1%;
+    margin: 0 1.5% 30px 1.5%;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgb(0,0.5,0,0.5);
+    box-sizing: border-box;
+    padding: 2%;
+    vertical-align: top;
 }
 
-#card1{
-    width: 61%;
+.row{
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
 }
-#card4{
+
+#clear2{
+    clear: both;
+}
+
+.card img{
+    border-radius: 40px;
     width: 70%;
-    padding-left: 1.5vw;
-}
-
-#card2{
-    width: 72.5%;
-}
-
-#card3{
-    width: 90%;
-}
-
-#card5{
-    width: 80%;
+    padding-top: 10px;
 }
 
 .card-description{
     color: #fff;
-    text-align: center;
     font-weight: lighter;
+    text-align: center;
+    padding-top: 10px;
 }
 
-/*#education{
-    padding-left: 40%;
-}*/
+.card2{
+    height: 66vh;
+}
+
+.card5,
+.card6{
+    height: 70vh;
+}
+
+#education{
+    margin-top: 10vh;
+}
+
+#education h3 table{
+    display: inline;
+    margin: auto;
+}
+
+#education h2{
+    font-weight: lighter;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 7vh;
+}
+
+#frase{
+    text-align: center;
+    font-weight: lighter;
+    font-size: large;
+    float: left;
+    line-height: 25px;
+    background-color: #264d2f;
+    padding: 50px 50px; 
+    border-radius: 50%; 
+    max-width: 80%;
+    margin-top: 5vh;
+    margin-left: 7vw;
+    margin-right: 5vw;
+}
+
+#education table{
+    width: 40%;
+    height: 50vh;
+    text-align: center;
+}
+
+#education table th{
+    height: 10vh;
+}
+
+#causos{
+    margin-top: 10vh;
+}
+
+#causos h2{
+    font-weight: lighter;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 7vh;
+}
+
+#causos .texto2{
+    text-align: justify;
+    line-height: 25px;
+    background-color: #264d2f;
+    border-radius: 30px;
+    margin: 0 9%;
+    padding: 35px;
+}
+
+#causos img{
+    width: 35%;
+    padding-left: 55vh;
+}
+
+#hability{
+    margin-top: 10vh;
+}
+
+#hability h2{
+    font-weight: lighter;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 7vh;
+}
+
+#hability ol{
+    background-color: #264d2f;
+    border-radius: 30px;
+    margin: 6% 9%;
+    padding: 35px;
+    padding-left: 15vw;
+}
+
+#hability ol li{
+    line-height: 25px;
+}
+
+#eu{
+    float: right;
+    width: 11%;
+    margin-top: 8.3vh;
+    margin-right: 20vw;  
+    border-radius: 30px;
+}
 
 footer{
     background-color: #12210C;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer h3{
+    font-weight: lighter;
+    font-size: large;
+    display: inline;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: #BA920E;
+}
+
+footer p{
+    display: inline;
+    padding-right: 10%;
+    color: #BA920E;
 }
