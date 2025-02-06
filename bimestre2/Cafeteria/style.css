@@ -96,14 +96,14 @@ header img{
 
 .locations img{
     width: 75vw;
-    height: 100vh;
+    height: 80vh;
     margin-left: 12vw;
 }
 
 .locations h2{
     font-size: larger;
     position: absolute;
-    top: 250vh;
+    top: 220vh;
     left: 45vw;
     background-color: transparent;
 }
@@ -116,8 +116,8 @@ header img{
     line-height: 10vh;
     opacity: 1;
     position: absolute;
-    top: 265vh;
-    left: 17vw;
+    top: 230vh;
+    left: 21vw;
 }
 
 .local1{
