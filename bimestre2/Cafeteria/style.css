@@ -5,7 +5,7 @@
     background-color: black;
     font-size: 22px;
     color: seashell;
-    /*opacity: 0.9;*/
+    opacity: 0.97;
 }
 
 header{
@@ -14,6 +14,7 @@ header{
     border-bottom: 1px solid seashell;
     position: fixed;
     top: 0;
+    z-index: 1;
     display: flex;
 }
 
@@ -22,7 +23,7 @@ header nav ul{
     display: flex;
     padding-top: 2%;
     padding-left: 60vw;
-    gap: 9vh;
+    gap: 2vw;
     text-decoration: underline;
 }
 
@@ -38,7 +39,7 @@ header img{
 
 .hero img{
     width: 75vw;
-    height: 90.7vh;
+    height: 100vh;
     margin-left: 12vw;
     padding-top: 9vh;
 }
@@ -54,6 +55,7 @@ header img{
 }
 
 .texto h2{
+    font-size: larger;
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -62,7 +64,7 @@ header img{
     width: 70%;
     text-align: center;
     margin: 0 auto;
-    margin-top: 30%;
+    margin-top: 33%;
     margin-bottom: 5vh;
 }
 
@@ -89,15 +91,67 @@ header img{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
 }
 
 .locations img{
     width: 75vw;
-    height: 90.7vh;
+    height: 100vh;
     margin-left: 12vw;
 }
 
 .locations h2{
-    padding-top: 5vh;
+    font-size: larger;
+    position: absolute;
+    top: 250vh;
+    left: 45vw;
+    background-color: transparent;
+}
+
+.locais{
+    background-color: transparent;
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    line-height: 10vh;
+    opacity: 1;
+    position: absolute;
+    top: 265vh;
+    left: 17vw;
+}
+
+.local1{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.local2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.local3{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer{
+    height: 200px;
+    text-align: center;
+}
+
+footer h2{
+    font-size: larger;
+    padding-bottom: 5vh;
+}
+
+footer h5{
+    font-size: small;
+    padding-bottom: 5vh;
+}
+
+#copy{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
