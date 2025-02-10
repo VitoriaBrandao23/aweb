@@ -170,7 +170,7 @@ main{
 
 .card img{
     border-radius: 40px;
-    width: 70%;
+    width: 50%;
     padding-top: 10px;
 }
 
@@ -206,13 +206,13 @@ footer a{
     text-decoration: none;
 }
 
+footer i{
+    padding-right: 5px;
+}
+
 footer a:hover p,
 footer a:hover i{
     color: #BA920E;
-}
-
-footer i{
-    padding-right: 5px;
 }
 
 footer p{
