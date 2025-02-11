@@ -189,7 +189,6 @@ footer{
     text-align: center;
     margin-top: 100px;
     padding-top: 20px;
-    padding-bottom: 40px;
 }
 
 footer h3{
@@ -199,10 +198,14 @@ footer h3{
     color: #fff;
 }
 
+footer #name{
+    padding-bottom: 0.5%;
+}
+
 footer a{
     display: flex;
     justify-content: center;
-    padding-bottom: 1%;
+    padding-bottom: 0.5%;
     text-decoration: none;
 }
 
