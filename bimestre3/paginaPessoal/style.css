@@ -219,3 +219,105 @@ footer p{
     font-size: 15px;
     color: #fff;
 }
+
+@media screen and (max-width:395px) and (max-height: 844px){
+    header{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav{
+        width: 90%;
+        height: 100px;
+        border-radius: 30px;
+        top: 89vh;
+        bottom: 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav ul{
+        gap: 30px;
+    }
+
+    nav ul li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+    }
+
+    nav ul li a span{
+        display: none;
+    }
+
+    #logo{
+        padding-left: 20px;
+        padding-right: 1px;
+    }
+
+    #icon{
+        padding-left: 50px;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+            "hero hero hero hero"
+            "about_me about_me about_me about_me"
+            "curiosity curiosity curiosity curiosity";
+        width: 100%;
+    }
+
+    .hero{
+        flex-direction: column-reverse;
+        margin-top: 0;
+        width: 100%;
+        height: 100vh;
+        padding-left: 20px;
+    }
+
+    .texto{
+        padding-top: 10%;
+        text-align: center;
+    }
+
+    .texto h1{
+        font-size: x-large;
+        padding-bottom: 6%;
+    }
+
+    .hero button{
+        margin-left: 90px;
+    }
+
+    #me{
+        width: 50%;
+        margin-right: 20vw;
+    }
+
+    #about_me{
+        grid-column: span 4;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #about_me div h2,
+    #curiosity h2{
+        text-align: center;
+    }
+
+    #curiosity{
+        grid-column: span 4;
+    }
+    
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
