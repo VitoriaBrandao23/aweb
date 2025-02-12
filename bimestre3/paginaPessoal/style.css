@@ -35,8 +35,8 @@ nav ul li a{
     text-decoration: none;
 }
 
-nav a:hover,
-nav a:hover i{
+nav a:hover i,
+nav a:hover span{
     color: #BA920E;
 }
 
